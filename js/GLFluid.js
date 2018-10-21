@@ -1223,7 +1223,7 @@ Main.prototype = $extend(lime.app.Application.prototype,{
 		var isIOSBrowser = new EReg("(iPad|iPhone|iPod)","g").match(window.navigator.userAgent);
 		if(isIOSBrowser) {
 			js.Lib.alert("iOS is not supported yet :(");
-			window.location.href = "mobile-app/index.html";
+			window.location.href = "../index.html";
 			return;
 		}
 		switch(context[1]) {
