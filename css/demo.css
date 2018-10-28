@@ -112,6 +112,16 @@ a:focus {
 	display: grid;
 }
 
+.vivaabout {
+	display: none;
+	z-index: 10;
+}
+
+.vivacontact {
+	display: none;
+	z-index: 10;
+}
+
 .content--fixed {
 	position: fixed;
 	top: 0;
@@ -189,7 +199,7 @@ a:focus {
 	grid-area: desc;
 	margin: 0;
 	z-index: 10;
-	padding: 0 1em;
+	padding: 35px 1em;
 	cursor: default;
 }
 

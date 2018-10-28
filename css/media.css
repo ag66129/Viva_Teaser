@@ -16,19 +16,19 @@ label .menu {
   right: -100px;
   top: -100px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   background: #fff;
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 45% 75% 50%;
   transition: 0.5s ease-in-out;
   box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
   cursor: pointer;
 }
 label .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
-  width: 30px;
+  top: 127px;
+  left: 30px;
+  width: 29px;
   height: 2px;
   background: #000;
   display: block;
@@ -54,8 +54,8 @@ label input {
   display: none;
 }
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw #fff, 0 0 0 100vh #fff;
-  border-radius: 0;
+  box-shadow: 0 0 0 100vw rgb(0,0,0,0);
+  border-radius: 50%;
 }
 label input:checked + .menu .hamburger {
   transform: rotate(45deg);
@@ -72,7 +72,6 @@ label input:checked + .menu + ul {
   opacity: 1;
 }
 label ul {
-  z-index: 200;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -85,7 +84,7 @@ label a {
   margin-bottom: 0.2em;
   font-size: 3vmax;
   display: block;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 h1 {
@@ -199,3 +198,5 @@ body {
 .menu_active a:nth-child(3) {
     transform: translate(170%, -44%);
 }
+
+
