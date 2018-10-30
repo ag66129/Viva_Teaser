@@ -18,6 +18,9 @@
         <link rel="shortcut icon" href="image/viva_original.png"/>
         <title>Vivacity 2019</title>
         <link rel="stylesheet" href="css/css1.css" />
+    	<link rel="stylesheet" type="text/css" href="css/social.css" />
+    	<link rel="stylesheet" type="text/css" href="css/hamburger.css" />
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/css2.css" media="all" />
         <script src="js/js3.js" defer></script>
         <![endif]-->
@@ -62,22 +65,52 @@
                             <!--</div>-->
                         <!--</nav>-->
                     <!--</header>-->
+                    <label>
+            			<input type="checkbox" id="check" onclick="menu()"></input>
+            			<span class="menu">
+            				<span class="hamburger"></span>
+            			</span>
+            			<ul id="pointer" class="point">
+            				<li>
+            					<a href="#" onclick="openhome()">Home</a>
+            				</li>
+            				<li>
+            					<a href="#about" onclick="openabout()">About</a>
+            				</li>
+            				<li>
+            					<a href="#" onclick="opencontact()">Contact us</a>
+            				</li>
+            			</ul>
+            		</label>
                     <div class="field field--name-body field--type-text-with-summary field--label-hidden">
-                        <div id="creativitylogic" class="slide text-center screen-size" style="background-image: url('image/4.png'); background-repeat: no-repeat">
+                        <div id="creativitylogic" class="slide text-center screen-size" style="background-image: url('image/4.png'); background-repeat: no-repeat; z-index: -1;">
                             <canvas id="homeanimation"></canvas>
-
-
-                            <div id="idea"><span>Vivacity</span><span class="plus">+</span><span>2019</span></div>
-                            <!--<p>vivacity 2019</p>-->
-
-
-
-                            <div class="pointer"><span class="fbicon-pointer"></span></div>
-                        </div>
+                                <div class="content" id="home">
+                                    <span><h3 class="">Vivacity</h3></span>
+                                    <span class="">2 - 4 February' 19</span>
+                                    <a href="#" class="">Cultural Fest of LNMIIT, Jaipur</a>
+                                </div>
+                                <div class="vivaabout" id="about">
+                                        <h3>About</h3>
+                                        <span >2 - 4 February' 19</span>
+                                </div>
+                                <div class="vivacontact" id="contact">
+                                        <h3 >Contact</h3>
+                                        <span >2 - 4 February' 19</span>
+                                </div>
+                            </div>
+<!--
+                            <div class="pointer"><span class="fbicon-pointer"></span></div> -->
                     </div>
                 </div>
             </div>
         </div>
+        <ul id="social">
+    		<li><a href="https://www.facebook.com/Vivacity.LNMIIT/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    		<li><a href="https://www.twitter.com/vivacitylnmiit/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    		<li><a href="mailto:vivacity.thelnmiit@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+    		<li><a href="https://www.instagram.com/vivacity_lnmiit/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    	</ul>
         <script type="application/json" data-drupal-selector="drupal-settings-json">
             {
                 "path": {
@@ -122,5 +155,68 @@
             }
         </script>
         <script src="js/js1.js" defer></script>
+        <script type="text/javascript">
+            var y = document.getElementById("about");
+            var x = document.getElementById("home");
+            var h = document.getElementById("check");
+            var c = document.getElementById("contact");
+            var z = document.getElementById("pointer");
+            var f = 0;
+
+            function menu() {
+            if (f == 0) {
+                if (x.style.display === "none") {
+                    x.style.display = "grid";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            if (f == 1) {
+                if (y.style.display === "none") {
+                    y.style.display = "block";
+                } else {
+                    y.style.display = "none";
+                }
+            }
+
+            if (f == 2) {
+                if (c.style.display === "none") {
+                    c.style.display = "block";
+                } else {
+                    c.style.display = "none";
+                }
+            }
+
+            if (h.checked == true) {
+                z.classList.remove("point");
+            }
+            else {
+                z.classList.add("point");
+            }
+
+            }
+
+            function openabout() {
+            f = 1;
+            y.style.display = "block";
+            h.checked = false;
+            z.classList.add("point");
+            }
+
+            function openhome() {
+            f = 0;
+            x.style.display = "grid";
+            h.checked = false;
+            z.classList.add("point");
+            }
+
+            function opencontact() {
+            f = 2;
+            c.style.display = "block";
+            h.checked = false;
+            z.classList.add("point");
+            }
+        </script>
     </body>
 </html>
