@@ -4,6 +4,10 @@
 		left: 50%;
         display: flex;
     }
+    #sky_day{
+        margin-top: 200px;
+        transform: scale(1.4);
+    }
 }
 @media (min-width: 1000px) {
     #social {

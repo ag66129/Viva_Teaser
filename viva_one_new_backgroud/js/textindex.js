@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('We|Are|Back|With|Vivacity 19');
+      S.UI.simulate('We|Are|Back|With|Vivacity|On|Feb 1');
     }
 
     S.Drawing.loop(function () {
