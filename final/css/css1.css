@@ -2270,7 +2270,7 @@ button:focus,
 .button:focus,
 .layout-link a:focus,
 .layout-palette>.palette+div>a:focus {
-    background-color: rgba(255, 255, 255, .2)
+    /* background-color: rgba(255, 255, 255, .2) */
 }
 
 button:hover,
