@@ -5,14 +5,15 @@
         display: flex;
     }
     #sky_day{
-        margin-top: 200px;
+        margin-top: 250px;
 		transform: scale(1.7);
     }
 }
 @media (min-width: 1000px) {
     #social {
-		top: 50%;
-		left: 40px;
+		bottom: 5px;
+		left: 50%;
+        display: flex;
     }
 }
 
