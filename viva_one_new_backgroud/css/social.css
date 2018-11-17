@@ -95,15 +95,15 @@
 }
 
 #social li:hover:nth-child(2) a {
-	background: #55acee;
+	background: #dd4b39;
 }
 
 #social li:hover:nth-child(2) a:before {
-	background: #4184b7;
+	background: #c13929;
 }
 
 #social li:hover:nth-child(2) a:after {
-	background: #4d9fde;
+	background: #e83322;
 }
 
 #social li:hover:nth-child(3) a {
