@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="title" content="Vivacity 2019" />
+        <meta property="og:site_name" content="Vivacity" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="image/viva_original.png"/>
+        <title>Vivacity 2019</title>
+        <link rel="stylesheet" href="css/css1.css" />
+    	<link rel="stylesheet" type="text/css" href="css/social.css" />
+    	<link rel="stylesheet" type="text/css" href="css/hamburger.css" />
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/css2.css" media="all" />
+        <link rel="stylesheet" href="css/style.css">
+        <!--<link rel="stylesheet" href="css/registration.css">-->
+        <link rel="stylesheet" href="css/style2.css">
+        <script  src="js/main_auto.js"></script>
+
+        <style>
+          @font-face {
+              font-family: myFirstFont;
+              src: url(fonts/rage.ttf);
+          }
+          .logo1 {
+            text-align: center;
+            width: 65%;
+            margin-left: 18%;
+              margin-top: 35vh;
+              transform: skewY(-10deg);
+          }
+
+          .logo1 b {
+            font: 100 170px "myFirstFont";
+            color: #fee;
+            text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
+            0 0 0.1em #ff4444, 0 10px 3px #000;
+          }
+          .logo1 b span {
+            animation: blink linear infinite 2s;
+          }
+          @keyframes blink {
+            78% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            79% {
+              color: #333;
+            }
+            80% {
+              text-shadow: none;
+            }
+            81% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            82% {
+              color: #333;
+              text-shadow: none;
+            }
+            83% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+            92% {
+              color: #333;
+              text-shadow: none;
+            }
+            92.5% {
+              color: inherit;
+              text-shadow: inherit;
+            }
+          }
+
+
+        </style>
+
+        <script src="js/js3.js" defer></script>
+        <script src="js/js2.js" defer></script>
+    </head>
+    <body class="scrolling-up" style="overflow-x: hidden; overflow-y: hidden;">
+
+    <div id="dust">
+        <ul id="scene" data-friction-x="0.08"
+            data-friction-y="0.05">
+            <li class="layer" id="specks" data-depth="0.1"></li>
+            <li class="layer" id="layer-1" data-depth="0.15">
+                <div class="img" id="img-1"></div>
+            </li>
+            <li class="layer" id="layer-2" data-depth="0.25">
+                <div class="img" id="img-2"></div>
+            </li>
+            <li class="layer" id="layer-3" data-depth="0.45">
+                <div class="img" id="img-3"></div>
+            </li>
+        </ul>
+
+
+        <div class="config" style="display:none;"></div>
+
+        <script src='js/jquery.parallax.min.js'></script>
+        <script  src="js/index.js"></script>
+    </div>
+
+    <a href="index.html"><img src="image/vivalogo.png" style="position:absolute;width:70px;left:10px;top:10px;z-index:2;height:70px;" alt=""></a>
+
+
+
+        <div class="logo1"><b>Vi<span>v</span>a<span>ci</span>ty</b></div>
+
+        <div class="help" style="display:none;">?</div>
+
+
+
+
+
+
+
+
+<!--######## Hamburger ########-->
+
+
+    <button class="menu-toggle"></button>
+    <nav>
+        <ul class="menu">
+            <li data-text="Home">Home</li>
+            <li data-text="Projects">Projects</li>
+            <li data-text="About">About</li>
+            <li data-text="Contact">Contact</li>
+        </ul>
+    </nav>
+    <script>
+        $('button').on('click', function(){
+            $('body').toggleClass('open');
+        });
+    </script>
+
+
+
+    <!--######## Hamburger ends! ########-->
+
+
+
+
+
+    <!--<button class="skew1-button"><span>Campus Ambassador</span></button>-->
+
+
+    <!--<div class="container-2">-->
+        <!--<div class="btn btn-two">-->
+            <!--<span>IDLE</span>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="ui" style="display:none;">-->
+    <!--<input class="ui-input" type="text" />-->
+    <!--<span class="ui-return">↵</span>-->
+  <!--</div>-->
+
+  <!--<div class="overlay"  style="display:none;">-->
+    <!--<div class="tabs">-->
+      <!--<div class="tabs-labels"><span class="tabs-label">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>-->
+
+      <!--<div class="tabs-panels">-->
+        <!--<ul class="tabs-panel commands">-->
+          <!--<li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>-->
+          <!--<li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>-->
+          <!--<li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>-->
+          <!--<li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>-->
+          <!--<li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>-->
+
+          <!--<li class="commands-item commands-item&#45;&#45;gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>-->
+        <!--</ul>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+        <!--<svg id="sky_day" data-name="sky day" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1295.87 804.79"></svg>-->
+
+        <!--<div id="page-wrapper">-->
+            <!--<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>-->
+                <!--<div class="page  path-frontpage  node&#45;&#45;type-basic-page" role="document">-->
+
+                    <!--<div class="field field&#45;&#45;name-body field&#45;&#45;type-text-with-summary field&#45;&#45;label-hidden">-->
+                        <!--<div id="creativitylogic" class="slide text-center screen-size" style="background:transperent;position: absolute;top: 0;background-repeat: no-repeat;">-->
+                            <!--<canvas id="homeanimation"></canvas>-->
+                                <!--<div class="content" id="home">-->
+                                    <!--<span><h3 class=""></h3></span>-->
+                                    <!--<span class=""></span>-->
+                                    <!--<a href="#" class=""></a>-->
+                                <!--</div>-->
+                                <!--<div class="vivaabout" id="about">-->
+                                        <!--<h3></h3>-->
+                                        <!--<span ></span>-->
+                                <!--</div>-->
+                                <!--<div class="vivacontact" id="contact">-->
+                                        <!--<h3 ></h3>-->
+                                        <!--<span ></span>-->
+                                <!--</div>-->
+                            <!--</div>-->
+<!--&lt;!&ndash;-->
+                            <!--<div class="pointer"><span class="fbicon-pointer"></span></div> &ndash;&gt;-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<ul id="social">-->
+    		<!--<li><a href="https://www.facebook.com/Vivacity.LNMIIT/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
+    		<!--<li><a href="https://www.twitter.com/vivacitylnmiit/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
+    		<!--<li><a href="mailto:vivacity.thelnmiit@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>-->
+    		<!--<li><a href="https://www.instagram.com/vivacity_lnmiit/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>-->
+    	<!--</ul>-->
+
+    <div class="social-btns">
+        <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="btn google" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="btn dribbble" href="#"><i class="fa fa-envelope"></i></a>
+        <a class="btn skype" href="#"><i class="fa fa-youtube-play"></i></a>
+    </div>
+        <script src="js/js1.js" defer></script>
+
+        <script  src="js/textindex.js"></script>
+
+        <script type="text/javascript">
+            var y = document.getElementById("about");
+            var x = document.getElementById("home");
+            var h = document.getElementById("check");
+            var c = document.getElementById("contact");
+            var z = document.getElementById("pointer");
+            var f = 0;
+
+            function menu() {
+            if (f == 0) {
+                if (x.style.display === "none") {
+                    x.style.display = "grid";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            if (f == 1) {
+                if (y.style.display === "none") {
+                    y.style.display = "block";
+                } else {
+                    y.style.display = "none";
+                }
+            }
+
+            if (f == 2) {
+                if (c.style.display === "none") {
+                    c.style.display = "block";
+                } else {
+                    c.style.display = "none";
+                }
+            }
+
+            if (h.checked == true) {
+                z.classList.remove("point");
+            }
+            else {
+                z.classList.add("point");
+            }
+
+            }
+
+            function openabout() {
+            f = 1;
+            y.style.display = "block";
+            h.checked = false;
+            z.classList.add("point");
+            }
+
+            function openhome() {
+            f = 0;
+            x.style.display = "grid";
+            h.checked = false;
+            z.classList.add("point");
+            }
+
+            function opencontact() {
+            f = 2;
+            c.style.display = "block";
+            h.checked = false;
+            z.classList.add("point");
+            }
+        </script>
+    </body>
+</html>
