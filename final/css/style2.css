@@ -507,7 +507,7 @@ body.landscape-small #choose_line  {
 body.landscape-small iframe{
     min-height: 400px;
     min-width: 320px;
-    
+
 
     -ms-transform: scale(0.70);
     -moz-transform: scale(0.70);
@@ -575,18 +575,15 @@ body.landscape-small #load_bar_wrp{
     animation-iteration-count: infinite;
 }
 #img-1 {
-    opacity: 0.85;
     background: url(../image/dust1.png);
     background-repeat: repeat;animation-duration: 600s;
 }
 #img-2 {
-    opacity: 0.4;
     background: url(../image/background.gif);
     background-repeat: repeat;
     animation-duration: 450s;
 }
 #img-3 {
-    opacity: 0.35;
     background: url(../image/dust3.png);
     background-repeat: repeat;
     animation-duration: 350s;
@@ -1051,4 +1048,3 @@ h3 {
     cursor: pointer;
     text-shadow: none;
 }
-
