@@ -839,7 +839,7 @@
                     </li>
 
                     <li><a href="#" onclick="openevents();">Major Events</a></li>
-                    
+
                     <li>
                       <a href="#" onclick="opencontact();">Contact us</a>
                     </li>
@@ -852,8 +852,8 @@
                     <div class="field field--name-body field--type-text-with-summary field--label-hidden">
                         <div id="creativitylogic" class="slide text-center screen-size" style="background:transperent;position: absolute;top: 0;background-repeat: no-repeat;">
                             <canvas id="homeanimation"></canvas>
-                            
-                             
+
+
                         </div>
                             <!-- <div class="pointer"><span class="fbicon-pointer"></span></div>  -->
                     </div>
@@ -864,7 +864,7 @@
         <div class="forabout" style="z-index:100;">
           <img src="image/cross.png" alt="" onclick="off();">
           <div style="display: flex;direction: ltr;justify-content: space-around;">
-            <p style="font-family: 'Montserrat', sans-serif;width:80%;color:white;text-align:justify;direction:ltr;font-size:19px;width:70%;">
+            <p style="font-family: 'Montserrat', sans-serif;width:80%;color:white;text-align:justify;direction:ltr;font-size:19px;">
               Vivacity, in its existence, stood justifying itself as one of the liveliest and most animated jubilation that
               youth has ever experienced. Embarked upon in 2007, this Cultural-Management festival today has snowballed to a
               popularity of gigantic proportions; all of which can be attributed to the acuminous student committee that have
@@ -874,10 +874,9 @@
               We, the Vivacity team, yet again have come up with the proud invitation to this joie de vivre. Come, be a part of
               this artistic masterpiece, come be a part of Vivacity 2018!</p>
           </div>
-          <div style="width:100%;">
-            <div class="col-md-3 col-sm-3 col-xs-6" style="width:auto;"> <a href="highlights/highlights.html" style="font-family: 'Indie Flower', cursive;font-size:16px;width: 230px;border: white 1px solid;"
-                href="#" class="btn btn-sm animated-button victoria-one">Our Crescendos Past</a> </div>
-          </div>
+          <div style="display: block;margin: auto;">
+                <a style="font-family: 'Indie Flower', cursive;font-size:16px;border: white 1px solid;" href="#">Our Crescendos Past</a>
+            </div>
         </div>
 
         <div class="forcontact" style="z-index:100;">
@@ -952,10 +951,10 @@
               periphery of design. You definitely need to tighten your boots to get a slight blend of it.</p>
           </div>
         </div>
-      
-        
-      
-                          
+
+
+
+
         <ul id="social">
     		<li><a href="https://www.facebook.com/Vivacity.LNMIIT/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
     		<li><a href="https://www.twitter.com/vivacitylnmiit/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -974,10 +973,10 @@
           var z = document.getElementById("pointer");
 
           function menu() {
-            
+
             z.classList.toggle("point");
           }
-      
+
           function opencontact() {
             contac.style.left=0+"px";
             check.checked = false;
@@ -988,13 +987,13 @@
             check.checked = false;
             z.classList.add("point");
           }
-          
+
           function openevents() {
             events.style.left=0+"px";
             check.checked = false;
             z.classList.add("point");
           }
-      
+
           function off() {
             contac.style.left=-100+"%";
             about.style.left=-100+"%";
@@ -1002,9 +1001,9 @@
             check.checked = true;
             z.classList.remove("point");
           }
-          
-      
+
+
           </script>
-      
+
     </body>
 </html>
