@@ -247,14 +247,13 @@
 
     <!--######## Hamburger ########-->
 
-
-    <button class="menu-toggle" onclick="menu('navbar')"></button>
+    <button class="menu-toggle" id="btn" onclick="menu()"></button>
     <nav id="navbar">
         <ul class="menu">
-            <li data-text="Home" onclick="menu('home')">Home</li>
-            <li data-text="About Us" onclick="menu('about')">About Us</li>
-            <li data-text="Past Events" onclick="menu('event')">Past Events</li>
-            <li data-text="Contact Us" onclick="menu('contact')">Contact Us</li>
+            <li data-text="Home" onclick="openhome()">Home</li>
+            <li data-text="About Us" onclick="openabout()">About Us</li>
+            <li data-text="Past Events" onclick="openevent()">Past Events</li>
+            <li data-text="Contact Us" onclick="opencontact()">Contact Us</li>
         </ul>
     </nav>
     <script>
@@ -347,7 +346,7 @@
     <script src="js/js1.js" defer></script>
 
     <script src="js/textindex.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 
         function menu(pagel) {
             document.getElementById("about").style.left = -100 + "%";
@@ -358,6 +357,82 @@
             document.getElementById(pagel).style.display = "flex";
             document.getElementById(pagel).style.left = 0 + "px";
 
+        }
+
+    </script> -->
+
+    <script type="text/javascript">
+
+        var about = document.getElementById("about");
+        var home = document.getElementById("home");
+        var nav = document.getElementById("navbar");
+        var event = document.getElementById("event")
+        var contact = document.getElementById("contact");
+        var button = document.getElementById("btn");
+        var f = 0, t = 0;
+    
+        function menu() {
+            if (t == 1){
+                t = 0;
+                button.click();
+                return;
+            }
+            if (f == 0) {
+                if (home.style.display === "none") {
+                    home.style.display = "block";
+                } else {
+                    home.style.display = "none";
+                }
+            } 
+            if (f == 1) {
+                if (about.style.left === "-100%") {
+                    about.style.left = 0 + "px";
+                } else {
+                    about.style.left = -100 + "%";
+                }
+            }
+            if (f == 2) {
+                if (event.style.left === "-100%") {
+                    event.style.left = 0 + "px";
+                } else {
+                    event.style.left = -100 + "%";
+                }
+            }
+            if (f == 3) {
+                if (contact.style.left === "-100%") {
+                    contact.style.left = 0 + "px";
+                } else {
+                    contact.style.left = -100 + "%";
+                }
+            }
+        }
+        
+        function openhome() {
+            f = 0;
+            t = 1;
+            home.style.display = "block";
+            button.click();
+        }
+        
+        function openabout() {
+            f = 1;
+            t = 1;
+            about.style.left = 0+"px";
+            button.click();
+        }
+
+        function openevent() {
+            f = 2;
+            t = 1;
+            event.style.left = 0+"px";
+            button.click();
+        }
+
+        function opencontact() {
+            f = 3;
+            t = 1;
+            contact.style.left = 0+"px";
+            button.click();
         }
 
     </script>

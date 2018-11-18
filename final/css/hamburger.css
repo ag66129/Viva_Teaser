@@ -655,7 +655,7 @@ article {
 .eventone>div {
   width: 200px;
   height: 200px;
-  background-image: url("image/pronite1.jpg");
+  background-image: url("../image/pronite1.jpg");
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -664,7 +664,7 @@ article {
 .eventtwo>div {
   width: 200px;
   height: 200px;
-  background-image: url("image/raddrock1.jpg");
+  background-image: url("../image/raddrock1.jpg");
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -673,7 +673,7 @@ article {
 .eventthree>div {
   width: 200px;
   height: 200px;
-  background-image: url("image/razzmatazz1.jpg");
+  background-image: url("../image/razzmatazz1.jpg");
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -682,7 +682,7 @@ article {
 .eventfour>div {
   width: 200px;
   height: 200px;
-  background-image: url("image/vogue1.jpg");
+  background-image: url("../image/vogue1.jpg");
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -798,4 +798,4 @@ a.animated-button:link, a.animated-button:visited {
     height: 120% !important;
     opacity: 1;
     color: #FFF;
-    } */
+    } 
