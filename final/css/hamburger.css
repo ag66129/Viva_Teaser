@@ -14,7 +14,7 @@ body {
 
 p {
   font-size: 20px;
-  line-height: 28px;
+  /* line-height: 28px; */
   margin: 0 0 18px;
 }
 p span {
@@ -388,7 +388,7 @@ article {
 
 .forabout>h1 {
   width: 100%;
-  font-size: 70px;
+  font-size: 40px;
   margin: 0;
   padding-top: 10%;
 }
@@ -468,9 +468,10 @@ article {
 
 .forcontact>h1 {
   width: 100%;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   padding-top: 10%;
+  padding-bottom: 5px;
 }
 
 .forcontact>div>p {
@@ -648,8 +649,11 @@ article {
 }
 
 .forevents>h1 {
-  margin: 10px 0;
+  margin: 0;
   width: 100%;
+  font-size: 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .eventone>div {

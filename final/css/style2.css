@@ -185,8 +185,23 @@ body.portrait-small #logo_bkg {
     height: 10%;
 }
 body.portrait-small h1 {
-    font-size: 20px;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
+
+#eve{
+    font-size: 40px;
+    padding-bottom: 20px;
+    line-height: 1em;
+    padding-top: 50px;
+}
+
+#cont{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
 body.portrait-small h2 {
     font-size: 24px;
 }
@@ -215,9 +230,9 @@ body.portrait-small #step3 h2 {
     font-size: 45px;
     line-height: 45px;
     margin-bottom: 14px;
-}
+}about
 body.portrait-small #step4 h2 {
-    font-size: 45px;
+    font-size: 45px;about
     line-height: 45px;
     margin-bottom: 14px;
 }
@@ -238,7 +253,7 @@ body.portrait-small #step3 .single_bout {
 body.portrait-small #step4 .single_bout {
     width: 44%;
     transition: none;
-}
+}about
 body.portrait-small #step4 h3 {
     font-size: 20px;
 
@@ -259,7 +274,7 @@ body.portrait-small #step4 #load_bar_wrp{
 }
 
 body.portrait-small #step5, body.portrait-small #step6{
-    width: 100%;
+    about   width: 100%;
 }
 
 body.portrait-small #select_wrp{
@@ -280,7 +295,7 @@ body.portrait-small iframe{
     min-width: 320px;
 }
 
-
+about
 body.portrait-small #skip_intro .single_bout{
     width: 90%;
 }
@@ -341,7 +356,7 @@ body.landscape-big #step3 #choose_line{
 /********************* LANDSCAPE MEDIUM *********************/
 
 body.landscape-medium h1 {
-    font-size: 26px;
+    font-size: 40px;
     line-height: 20px;
 }
 body.landscape-medium #step3 h1 {
@@ -369,8 +384,8 @@ body.landscape-medium #step4 h2 {
 }
 
 
-body.landscape-medium .single_bout {
-    width: 50%;
+body.landscape-about {
+    width: 50%;about
 }
 
 body.landscape-medium h3 {
@@ -394,7 +409,7 @@ body.landscape-medium #step3 h3 {
     line-height: 4px;
 }
 body.landscape-medium #step4 h3 {
-    font-size: 17px;
+    font-size: 17px;about
     line-height: 12px;
 }
 
