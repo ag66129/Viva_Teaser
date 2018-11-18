@@ -83,7 +83,7 @@ ul {
 ul li {
   cursor: pointer;
   padding: 6px 20px;
-  font-size: 48px;
+  font-size: 6vw;
 }
 
 button {

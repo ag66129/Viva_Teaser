@@ -3,7 +3,7 @@
         display: flex;
 		position: absolute;
 		bottom: 0px;
-		left: 10px
+		left: 20%
     }
 }
 @media (min-width: 1000px) {
