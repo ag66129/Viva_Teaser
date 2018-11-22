@@ -39,6 +39,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background: no-repeat fixed center;
 }
 
 iframe {
@@ -69,56 +70,56 @@ iframe {
 
 /********************* PORTRAIT MEDIUM *********************/
 
-body.portrait-medium .logo_bkg {
+.blockno.portrait-medium .logo_bkg {
     display: block;
 }
-body.portrait-medium #container {
+.blockno.portrait-medium #container {
     width: 90%;
     margin-left: 5%;
 }
-body.portrait-medium #logo img {
+.blockno.portrait-medium #logo img {
     width: 70%;
 }
-body.portrait-medium #logo{
+.blockno.portrait-medium #logo{
     top: -2%;
 }
 
-body.portrait-medium .single_bout {
+.blockno.portrait-medium .single_bout {
     width: 70%;
 }
 
-body.portrait-medium  #step4 .single_bout{
+.blockno.portrait-medium  #step4 .single_bout{
     width: 45%;
 }
-body.portrait-medium #step2 h3 {
+.blockno.portrait-medium #step2 h3 {
     font-size: 20px;
     line-height: 20px;
 }
-body.portrait-medium #step4 h3 {
+.blockno.portrait-medium #step4 h3 {
     font-size: 26px;
 
 }
 
-body.portrait-medium #step3 h1 {
+.blockno.portrait-medium #step3 h1 {
     font-size: 45px;
     line-height: 45px;
 }
-body.portrait-medium #step3 h2 {
+.blockno.portrait-medium #step3 h2 {
     font-size: 80px;
     line-height: 80px;
 }
-body.portrait-medium #choose_line{
+.blockno.portrait-medium #choose_line{
 width: 85%;
 }
 
 
 
-body.portrait-medium #step4 h2{
+.blockno.portrait-medium #step4 h2{
     font-size: 60px;
 }
 
 
-body.portrait-medium #step5, body.portrait-medium #step6{
+.blockno.portrait-medium #step5, .blockno.portrait-medium #step6{
 
     width: 80%;
 
@@ -164,27 +165,27 @@ body.portrait-medium #step5, body.portrait-medium #step6{
 
 /********************* PORTRAIT SMALL *********************/
 
-body.portrait-small #logo{
+.blockno.portrait-small #logo{
     top: -2%;
 }
-body.portrait-small #logo img {
+.blockno.portrait-small #logo img {
     width: 85%;
 }
-body.portrait-small .steps{
+.blockno.portrait-small .steps{
     bottom: 10%;
 }
-body.portrait-small #container {
+.blockno.portrait-small #container {
     width: 90%;
     margin-left: 5%;
 }
-body.portrait-small .logo_bkg {
+.blockno.portrait-small .logo_bkg {
     display: block;
 }
-body.portrait-small #logo_bkg {
+.blockno.portrait-small #logo_bkg {
     display: block;
     height: 10%;
 }
-body.portrait-small h1 {
+.blockno.portrait-small h1 {
     font-size: 40px;
     padding-bottom: 20px;
 }
@@ -202,106 +203,106 @@ body.portrait-small h1 {
     padding-top: 100px;
 }
 
-body.portrait-small h2 {
+.blockno.portrait-small h2 {
     font-size: 24px;
 }
-body.portrait-small .single_bout {
+.blockno.portrait-small .single_bout {
     width: 84%;
     transition: none;
 }
 
-body.portrait-small #step1 h3 {
+.blockno.portrait-small #step1 h3 {
     font-size: 20px;
 }
 
-body.portrait-small #step2 h3 {
+.blockno.portrait-small #step2 h3 {
     font-size: 20px;
 }
 
-body.portrait-small #step3 h1 {
+.blockno.portrait-small #step3 h1 {
      font-size: 24px;
      line-height: 24px;
  }
-body.portrait-small #step4 h1 {
+.blockno.portrait-small #step4 h1 {
     font-size: 24px;
     line-height: 24px;
 }
-body.portrait-small #step3 h2 {
+.blockno.portrait-small #step3 h2 {
     font-size: 45px;
     line-height: 45px;
     margin-bottom: 14px;
 }about
-body.portrait-small #step4 h2 {
+.blockno.portrait-small #step4 h2 {
     font-size: 45px;about
     line-height: 45px;
     margin-bottom: 14px;
 }
-body.portrait-small #step3 h3 {
+.blockno.portrait-small #step3 h3 {
     font-size: 20px;
 
 }
-body.portrait-small #choose_line{
+.blockno.portrait-small #choose_line{
     width: 90%;
 }
 
-body.portrait-small #step3 .single_bout {
+.blockno.portrait-small #step3 .single_bout {
     width: 98%;
     transition: none;
     margin-bottom: 2%;
     margin-right: -1%;;
 }
-body.portrait-small #step4 .single_bout {
+.blockno.portrait-small #step4 .single_bout {
     width: 44%;
     transition: none;
 }about
-body.portrait-small #step4 h3 {
+.blockno.portrait-small #step4 h3 {
     font-size: 20px;
 
 }
-body.portrait-small #step5 h3 {
+.blockno.portrait-small #step5 h3 {
     font-size: 20px;
 
 }
 
 
 
-body.portrait-small #step4 #load_wrp h2{
+.blockno.portrait-small #step4 #load_wrp h2{
     font-size: 30px;
 }
 
-body.portrait-small #step4 #load_bar_wrp{
+.blockno.portrait-small #step4 #load_bar_wrp{
     width: 90%;
 }
 
-body.portrait-small #step5, body.portrait-small #step6{
+.blockno.portrait-small #step5, .blockno.portrait-small #step6{
     about   width: 100%;
 }
 
-body.portrait-small #select_wrp{
+.blockno.portrait-small #select_wrp{
     display: none;
 }
 
-body.portrait-small #step5 h2{
+.blockno.portrait-small #step5 h2{
     font-size: 58px;
     margin-top: -44px;
 }
-body.portrait-small #step6 h2{
+.blockno.portrait-small #step6 h2{
     font-size: 30px;
     margin-top: -29px;
 }
 
-body.portrait-small iframe{
+.blockno.portrait-small iframe{
     min-height: 400px;
     min-width: 320px;
 }
 
 about
-body.portrait-small #skip_intro .single_bout{
+.blockno.portrait-small #skip_intro .single_bout{
     width: 90%;
 }
 
 
-body.portrait-small #step5, body.portrait-small #step6 {
+.blockno.portrait-small #step5, .blockno.portrait-small #step6 {
     width: 90%;
 }
 
@@ -320,31 +321,31 @@ body.portrait-small #step5, body.portrait-small #step6 {
 
 /********************* LANDSCAPE reallyBIG *********************/
 
-body.landscape-reallybig #logo {
+.blockno.landscape-reallybig #logo {
     z-index: 3;
 }
 
-body.landscape-reallybig #step3 h3 {
+.blockno.landscape-reallybig #step3 h3 {
     font-size: 24px;
     line-height: 4px;
 }
 
 /********************* LANDSCAPE BIG *********************/
 
-body.landscape-big #step2 h3 {
+.blockno.landscape-big #step2 h3 {
     font-size: 22px;
     line-height: 16px;
 }
 
-body.landscape-big #step3 h3 {
+.blockno.landscape-big #step3 h3 {
     font-size: 24px;
 }
 
-body.landscape-big #logo {
+.blockno.landscape-big #logo {
     z-index: 3;
 }
 
-body.landscape-big #step3 #choose_line{
+.blockno.landscape-big #step3 #choose_line{
     width: 55%;
 }
 
@@ -355,60 +356,60 @@ body.landscape-big #step3 #choose_line{
 
 /********************* LANDSCAPE MEDIUM *********************/
 
-body.landscape-medium h1 {
+.blockno.landscape-medium h1 {
     font-size: 40px;
     line-height: 20px;
 }
-body.landscape-medium #step3 h1 {
+.blockno.landscape-medium #step3 h1 {
     font-size: 35px;
     line-height: 40px;
 }
 
-body.landscape-medium #step3 #choose_line {
+.blockno.landscape-medium #step3 #choose_line {
     width:80%;
 }
 
-body.landscape-medium #step4 h1 {
+.blockno.landscape-medium #step4 h1 {
     font-size: 30px;
     line-height: 35px;
 }
-body.landscape-medium #step3 h2 {
+.blockno.landscape-medium #step3 h2 {
     font-size: 71px;
     line-height: 55px;
     margin-bottom: 22px;
 }
-body.landscape-medium #step4 h2 {
+.blockno.landscape-medium #step4 h2 {
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 16px;
 }
 
 
-body.landscape-about {
+.blockno.landscape-about {
     width: 50%;about
 }
 
-body.landscape-medium h3 {
+.blockno.landscape-medium h3 {
     font-size: 22px;
     line-height: 20px;
 }
-body.landscape-medium #logo  {
+.blockno.landscape-medium #logo  {
     z-index: 3
 }
-body.landscape-medium #step3 .single_bout {
+.blockno.landscape-medium #step3 .single_bout {
     width: 46%;
     max-width: 235px;
 }
 
-body.landscape-medium h2 {
+.blockno.landscape-medium h2 {
     margin-bottom: 40px;
 }
 
-body.landscape-medium #step3 h3 {
+.blockno.landscape-medium #step3 h3 {
     font-size: 22px;
     line-height: 4px;
 }
-body.landscape-medium #step4 h3 {
+.blockno.landscape-medium #step4 h3 {
     font-size: 17px;about
     line-height: 12px;
 }
@@ -416,81 +417,81 @@ body.landscape-medium #step4 h3 {
 
 
 
-.step6 body.landscape-medium .steps{
+.step6 .blockno.landscape-medium .steps{
     bottom: 8%;
 }
 
 /********************* LANDSCAPE SMALL *********************/
 
-body.landscape-small #logo{
+.blockno.landscape-small #logo{
     top: -4%;
 }
-body.landscape-small #logo img {
+.blockno.landscape-small #logo img {
     width: 56%;
 }
-body.landscape-small h1 {
+.blockno.landscape-small h1 {
     font-size: 14px;
     line-height: 15px;
 }
-body.landscape-small #step4 h1 {
+.blockno.landscape-small #step4 h1 {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 7px;
 }
-body.landscape-small #step3 h1 {
+.blockno.landscape-small #step3 h1 {
     font-size: 24px;
     line-height: 30px;
 }
-body.landscape-small h2 {
+.blockno.landscape-small h2 {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 14px;
 }
-body.landscape-small #step3 h2 {
+.blockno.landscape-small #step3 h2 {
      font-size: 47px;
      line-height: 42px;
      margin-bottom: 14px;
  }
-body.landscape-small #step4 h2 {
+.blockno.landscape-small #step4 h2 {
     font-size: 35px;
     line-height: 35px;
     margin-bottom: 10px;
 }
-body.landscape-small h3 {
+.blockno.landscape-small h3 {
     font-size: 20px;
 }
-body.landscape-small .steps {
+.blockno.landscape-small .steps {
     bottom: 10%;
 }
 
-body.landscape-small #step2 h3 {
+.blockno.landscape-small #step2 h3 {
     font-size: 15px;
     line-height: 10px;
 }
-body.landscape-small #step4 h3 {
+.blockno.landscape-small #step4 h3 {
     font-size: 14px;
 }
 
-body.landscape-small .single_bout {
+.blockno.landscape-small .single_bout {
     width: 50%;
 }
-body.landscape-small #step3 .single_bout {
+.blockno.landscape-small #step3 .single_bout {
     width: 45%;
 }
-body.landscape-small #step4 .single_bout {
+.blockno.landscape-small #step4 .single_bout {
     width: 40%;
     margin-bottom: 8px;
 }
 
-body.landscape-small #step5 {
+.blockno.landscape-small #step5 {
     width: 86%;
 }
 
-body.landscape-small #logo  {
+.blockno.landscape-small #logo  {
     z-index: 3
 }
 
-body.landscape-small #choose_line  {
+.blockno.landscape-small #choose_line  {
     width: 80%;
 }
 
@@ -519,7 +520,7 @@ body.landscape-small #choose_line  {
     margin: auto;
 }
 
-body.landscape-small iframe{
+.blockno.landscape-small iframe{
     min-height: 400px;
     min-width: 320px;
 
@@ -538,16 +539,16 @@ body.landscape-small iframe{
 
 }
 
-body.landscape-small #step4 #load_wrp h2 {
+.blockno.landscape-small #step4 #load_wrp h2 {
     font-size: 29px;
     line-height: 35px;
     margin-bottom: 10px;
 }
 
-body.landscape-small #step4 #load_wrp {
+.blockno.landscape-small #step4 #load_wrp {
     margin-bottom: 10%;
 }
-body.landscape-small #load_bar_wrp{
+.blockno.landscape-small #load_bar_wrp{
     height: 28px;
     border-style: solid;
     border-width: 2px;

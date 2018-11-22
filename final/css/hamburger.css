@@ -6,11 +6,11 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
+/* 
 body {
-  background-color: #fcfcf4;
+  background: url("0.jpg") no-repeat fixed center;
   font-family: "Lusitana", sans-serif;
-}
+} */
 
 p {
   font-size: 20px;

@@ -128,7 +128,7 @@ function go() {
         $('.config').data('datascreen', datascreen);
         $('body').removeClass();
         $('body').addClass(datascreen);
-        $("body").css('background-image', 'url(imgs/bkgs/set/'+ set +'/bkg_'+ bkgImgNum + '-' + datascreen +'.jpg)');
+        $("body").css('background-image', 'url(image/0.jpg)');
 
 
 
