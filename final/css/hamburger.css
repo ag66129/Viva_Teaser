@@ -83,7 +83,7 @@ ul {
 ul li {
   cursor: pointer;
   padding: 6px 20px;
-  font-size: 6vw;
+  font-size: 5vh;
 }
 
 button {
@@ -109,7 +109,7 @@ button:before {
   margin: auto;
   right: auto;
   width: 100%;
-  background: linear-gradient(to bottom, #98B296, #98B296 20%, transparent 20%, transparent 40%, #98B296 40%, #98B296 60%, transparent 60%, transparent 80%, #98B296 80%, #98B296 100%);
+  background: linear-gradient(to bottom, #fff, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
   transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
 }
 button:after {
