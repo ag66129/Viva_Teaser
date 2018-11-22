@@ -270,6 +270,9 @@ ul.menu li:hover:after {
 .open ul.menu li:nth-child(4) {
   transition-delay: 1.05s;
 }
+.open ul.menu li:nth-child(5) {
+  transition-delay: 1.15s;
+}
 
 article {
   padding: 24px;
@@ -362,6 +365,7 @@ article {
 }
 
 .forabout,
+.forlback,
 .forcolamb,
 .forsponsers {
   width: 100%;
@@ -381,24 +385,28 @@ article {
 .forabout::-webkit-scrollbar {
   display: none;
 }
+.forlback::-webkit-scrollbar {
+  display: none;
+}
 
 .forcolamb::-webkit-scrollbar {
   display: none;
 }
 
-.forabout>h1 {
+.forabout>h1, .forlback>h1 {
   width: 100%;
   font-size: 40px;
   margin: 0;
   padding-top: 10%;
 }
 
-.forabout>div>p {
+.forabout>div>p,.forlback>div>p {
   font-size: 22px;
   font-family: 'Raleway', sans-serif;
 }
 
 .forabout>p,
+.forlback>p,
 .forcolamb>p {
   width: 100%;
   text-align: center;
@@ -407,6 +415,7 @@ article {
 }
 
 .forabout>img,
+.forlback>img,
 .forcolamb>img,
 .forsponsers>img {
   width: 30px;

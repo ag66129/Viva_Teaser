@@ -111,7 +111,7 @@
     <div class="logo1" id="home"><b>Vi<span>v</span>a<span>ci</span>ty</b></div>
 
     <div class="forabout" id="about">
-        <h1 style="font-family: 'Libre Baskerville', serif;">About</h1>
+        <h1 style="font-family: 'Libre Baskerville', serif;">About Us</h1>
         <div style="display: flex;justify-content: space-around;direction: ltr;">
             <p style="font-family: 'Montserrat', sans-serif;width:80%;color:white;text-align:justify;direction:ltr;font-size:19px;">
                 Vivacity, in its existence, stood justifying itself as one of the liveliest and most animated
@@ -133,9 +133,30 @@
                 part of
                 this artistic masterpiece, come be a part of Vivacity 2018!</p>
         </div>
-        <div style="width:100%;">
-            <div class="col-md-3 col-sm-3 col-xs-6" style="width:auto;"> <a href="highlights/highlights.html" style="font-family: 'Indie Flower', cursive;font-size:16px;width: 230px;border: white 1px solid;"
-                    href="#" class="btn btn-sm animated-button victoria-one">OUR CRESCENDOS PAST</a> </div>
+    </div>
+    
+    <div class="forlback" id="lback">
+        <h1 style="font-family: 'Libre Baskerville', serif;">Our Crescendos Past</h1>
+        <div style="display: flex;justify-content: space-around;direction: ltr;">
+            <p style="font-family: 'Montserrat', sans-serif;width:80%;color:white;text-align:justify;direction:ltr;font-size:19px;">
+                Vivacity, in its existence, stood justifying itself as one of the liveliest and most animated
+                jubilation
+                that
+                youth has ever experienced. Embarked upon in 2007, this Cultural-Management festival today has
+                snowballed
+                to a
+                popularity of gigantic proportions; all of which can be attributed to the acuminous student committee
+                that
+                have
+                piloted this fest in its odyssey so far. It is a juxtaposition of several contentions of dance, music,
+                dramatics,
+                literature, and fashion, with sundry informal fun events, authorized workshops, exhibitions and gaming
+                challenges. The brimming talents who are judged by distinguished virtuoso vie their way to win titanic
+                prizes.
+                We, the Vivacity team, yet again have come up with the proud invitation to this joie de vivre. Come, be
+                a
+                part of
+                this artistic masterpiece, come be a part of Vivacity 2018!</p>
         </div>
     </div>
 
@@ -254,7 +275,8 @@
         <ul class="menu">
             <li data-text="Home" onclick="openhome()">Home</li>
             <li data-text="About Us" onclick="openabout()">About Us</li>
-            <li data-text="Past Events" onclick="openevent()">Past Events</li>
+            <li data-text="Look Back" onclick="openlback()">Look Back</li>
+            <li data-text="Major Events" onclick="openevent()">Major Events</li>
             <li data-text="Contact Us" onclick="opencontact()">Contact Us</li>
         </ul>
     </nav>
@@ -342,8 +364,10 @@
         <a class="btn dribbble" href="#"><i class="fa fa-envelope"></i></a>
         <a class="btn skype" href="#"><i class="fa fa-youtube-play"></i></a>
     </div>
-    <div class="campusambassador">
-        <a href="#">Campus Ambassador</a>
+    <div style="width:100%;">
+        <div class="col-md-3 col-sm-3 col-xs-6 campusambassador" style="width:auto;">
+            <a href="#" style="font-family: 'Indie Flower', cursive;font-size:16px;width: 230px;border: white 1px solid;" class="btn btn-sm animated-button victoria-one">Campus Ambassador</a>
+        </div>
     </div>
     <script src="js/js1.js" defer></script>
 
@@ -407,6 +431,13 @@
                     contact.style.left = -100 + "%";
                 }
             }
+            if (f == 4) {
+                if (lback.style.left === "-100%") {
+                    lback.style.left = 0 + "px";
+                } else {
+                    lback.style.left = -100 + "%";
+                }
+            }
         }
         
         function openhome() {
@@ -427,6 +458,13 @@
             f = 2;
             t = 1;
             event.style.left = 0+"px";
+            button.click();
+        }
+
+        function openlback() {
+            f = 4;
+            t = 1;
+            lback.style.left = 0+"px";
             button.click();
         }
 
