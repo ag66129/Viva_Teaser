@@ -5,6 +5,12 @@
 		bottom: 0px;
 		left: 20%
     }
+	.campusambassador{
+		display: flex;
+		position: absolute;
+		bottom: 90px;
+		left: 90px;
+	}
 }
 @media (min-width: 1000px) {
     .social-btns {
@@ -12,6 +18,12 @@
 		top: 45%;
 		left: 10px;
     }
+	.campusambassador{
+		display: flex;
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}	
 }
 
 
@@ -226,10 +238,3 @@
 /*#social li:hover:nth-child(4) a:after {*/
 	/*background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);*/
 /*}*/
-
-.campusambassador{
-	display: flex;
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-}
