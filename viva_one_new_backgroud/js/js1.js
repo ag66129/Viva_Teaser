@@ -10713,7 +10713,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
             preRender: !1,
             antialias: !0,
             bgcolor: "rgba(0, 0, 0, 0)",
-            colorA: "#F3583A",
+            colorA: "#FF0000",
             colorB: "#34ACDB",
             colorC: "#FFFFFF"
         };
