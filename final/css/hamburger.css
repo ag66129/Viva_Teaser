@@ -1,16 +1,10 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Lusitana);
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
 }
-/* 
-body {
-  background: url("0.jpg") no-repeat fixed center;
-  font-family: "Lusitana", sans-serif;
-} */
 
 p {
   font-size: 20px;
@@ -124,6 +118,7 @@ button:after {
   line-height: 0;
   transition: opacity 0.4s ease-out;
 }
+
 button:active {
   -webkit-transform: translateY(2px);
   transform: translateY(2px);
@@ -199,6 +194,7 @@ ul.menu {
   color: white;
 }
 ul.menu li {
+  font-family: tosca;
   opacity: 0;
   text-align: center;
   -webkit-transform: translate3d(0, 36px, 0);
@@ -221,6 +217,7 @@ ul.menu li:before {
 }
 ul.menu li:after {
   opacity: 0;
+  font-family: tosca;
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -228,7 +225,7 @@ ul.menu li:after {
   bottom: 0;
   left: 0;
   margin: auto;
-  color: #0C6547;
+  color: #000000;
   overflow: hidden;
   -webkit-transform: translate(-24px, 6px);
   transform: translate(-24px, 6px);
@@ -402,7 +399,7 @@ article {
 
 .forabout>div>p,.forlback>div>p {
   font-size: 22px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .forabout>p,
@@ -411,7 +408,7 @@ article {
   width: 100%;
   text-align: center;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .forabout>img,
@@ -433,7 +430,7 @@ article {
   width: 100%;
   font-size: 40px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .sponserslist {
@@ -459,7 +456,7 @@ article {
   color: white;
   direction: rtl;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .forcontact {
@@ -485,7 +482,7 @@ article {
 
 .forcontact>div>p {
   font-size: 17px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .forcontact>div>img {
@@ -527,7 +524,7 @@ article {
   margin: 0 auto;
   text-align: center;
   font-size: 22px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'tosca', sans-serif;
 }
 
 .forsponserus>img {
