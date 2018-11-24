@@ -211,13 +211,13 @@ body.portrait-small .logo1 {
     font-size: 40px;
     padding-bottom: 20px;
     line-height: 1em;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 #cont{
     font-size: 40px;
     padding-bottom: 20px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .blockno.portrait-small h2 {
@@ -722,7 +722,7 @@ h1 {
     font-size: 26px;
     width: 100%;
     text-align: center;
-    line-height: 20px;
+    /* line-height: 20px; */
 }
 h1:after {
     background: none;
