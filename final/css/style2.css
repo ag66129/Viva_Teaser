@@ -165,6 +165,23 @@ width: 85%;
 
 /********************* PORTRAIT SMALL *********************/
 
+body.portrait-small #dates{
+    font-size: 20px;
+}
+
+body.portrait-small .logo1 b{
+    font: 100 28vw "myFirstFont";
+}
+
+body.portrait-small .logo1 {
+    width: 79%;
+    margin-left: 37px;
+    padding-right: 10%;
+}
+/* body.portrait-small.open #dates{
+    display: none;
+} */
+
 .blockno.portrait-small #logo{
     top: -2%;
 }
