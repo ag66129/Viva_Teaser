@@ -43,8 +43,6 @@ body {
 }
 
 iframe {
-    min-height: 370px;
-    min-width: 65%;
     border: none;
 }
 

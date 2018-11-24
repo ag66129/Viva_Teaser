@@ -1,15 +1,17 @@
 @media (max-width: 1000px) {
     .social-btns {
+		width: 100%;
         display: flex;
 		position: absolute;
 		bottom: 0px;
-		left: 20%
+		justify-content: center;
     }
 	.campusambassador{
+		width: 100%;
 		display: flex;
 		position: absolute;
 		bottom: 60px;
-		left: 70px;
+		justify-content: center;
 	}
 	#dates{
 		font-size: 100%;
