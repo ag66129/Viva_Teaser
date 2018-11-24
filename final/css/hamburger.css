@@ -613,7 +613,6 @@ article {
   }
 
   .add>div {
-    width: 100%;
     flex-wrap: wrap;
   }
 }
@@ -622,7 +621,6 @@ article {
   position: absolute;
   left: -100%;
   transition: .2s;
-  /* z-index: 6; */
   direction: rtl;
   width: 100%;
   height: 73vh;
@@ -633,7 +631,7 @@ article {
   flex-wrap: wrap;
   color: white;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .forevents::-webkit-scrollbar {
@@ -641,8 +639,8 @@ article {
 }
 
 .forevents>div {
-  width: 400px;
-  padding: 30px;
+  width: 260px;
+  padding: 20px;
 }
 
 .forevents>h1 {
